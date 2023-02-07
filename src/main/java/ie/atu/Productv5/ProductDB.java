@@ -66,7 +66,7 @@ public class ProductDB {
             myMusic.setLabel("the Columbia group");
             myMusic.setArtist("Pink Floyd");
             p = myMusic;
-        } else if (productCode.equalsIgnoreCase("nirvana")) {
+        } else if (productCode.equalsIgnoreCase("come as you are")) {
             Music myMusic = new Music();
             myMusic.setCode(productCode);
             myMusic.setDescription("Come as you are");
@@ -82,6 +82,32 @@ public class ProductDB {
             myMusic.setLabel("Blackened Recordings");
             myMusic.setArtist("Metallica");
             p = myMusic;
+        }
+
+        if (productCode.equalsIgnoreCase("bravia")) {
+            TV myTV = new TV();
+            myTV.setCode(productCode);
+            myTV.setDescription("SONY BRAVIA SMART TV KDL43WF663");
+            myTV.setPrice(819.00);
+            myTV.setManufacture("Sony");
+            myTV.setScreenSize(55);
+            p = myTV;
+        } else if (productCode.equalsIgnoreCase("g2")) {
+            TV myTV = new TV();
+            myTV.setCode(productCode);
+            myTV.setDescription("LG G2 4K OLED SMART TV OLED65G26LA");
+            myTV.setPrice(2699.99);
+            myTV.setManufacture("LG");
+            myTV.setScreenSize(65);
+            p = myTV;
+        } else if (productCode.equalsIgnoreCase("S95B")) {
+            TV myTV = new TV();
+            myTV.setCode(productCode);
+            myTV.setDescription("SAMSUNG S95B 4K QUANTUM OLED SMART TV QE55S95BATXXU");
+            myTV.setPrice(1499.99);
+            myTV.setManufacture("Samsung");
+            myTV.setScreenSize(60);
+            p = myTV;
         }
 
         return p;
