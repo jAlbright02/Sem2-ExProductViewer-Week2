@@ -1,4 +1,4 @@
-package ie.atu.Productv5;
+package ie.atu.ProductV6;
 
 import java.text.NumberFormat;
 
