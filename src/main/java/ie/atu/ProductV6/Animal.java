@@ -2,7 +2,7 @@ package ie.atu.ProductV6;
 
 import java.text.NumberFormat;
 
-public class Animal {
+public class Animal implements Productable{
 
     int Age;
     double price;
