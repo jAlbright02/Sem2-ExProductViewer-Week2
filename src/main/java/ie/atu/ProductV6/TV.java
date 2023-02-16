@@ -1,4 +1,4 @@
-package ie.atu.Productv5;
+package ie.atu.ProductV6;
 
 public class TV extends Product {
 
