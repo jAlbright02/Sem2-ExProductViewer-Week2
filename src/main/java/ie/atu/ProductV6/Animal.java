@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 public class Animal {
 
     int Age;
-    int price;
+    double price;
     String breed;
     String type;
 
@@ -21,7 +21,7 @@ public class Animal {
         Age = age;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
